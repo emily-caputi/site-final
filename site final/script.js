@@ -43,6 +43,7 @@ ScrollReveal().reveal('#inicio', { delay: 500 });
 ScrollReveal().reveal('#moranguinho', { delay: 500 });
 ScrollReveal().reveal('#galeria', { delay: 500 });
 ScrollReveal().reveal('#contato', { delay: 500 });
+ScrollReveal().reveal('#cronometro', { delay: 700 });
 
 const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".aba-conteudo");

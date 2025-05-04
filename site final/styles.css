@@ -8,7 +8,7 @@
     --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #ee006f;
     --cor-de-fundo: #320038;
-    --verde: #dbff57;
+    --verde-amarelo: #dbff57;
     --branco: #FFFFFF;
     --botao-ativo: #360442;
     --botao-inativo: rgba(94, 4, 102, 0.5);
@@ -16,9 +16,10 @@
 
 }
 
-.moranguinho{
+.moranguinho-site{
     font-size: 1rem;
     font-family: 'Montserrat';
+    
 }
 
 header {
@@ -217,8 +218,9 @@ h2 {
     background: none;
 }
 
-body {
+#cronometro {
     background-color: var(--cor-de-fundo);
+    background-image: linear-gradient( var(--branco) 20%, var(--cor-de-fundo) );
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
@@ -232,16 +234,24 @@ body {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    padding: 100px 0;
 }
 
-.titulo-principal {
+.conteudo{
+    background-color: var(--cor-de-fundo);
+
+}
+
+.titulo-principal-contador {
+    color: var(--pink);
     text-align: left;
     width: 100%;
     font-size: 32px;
+    padding: 40px 0 40px 0;
 }
 
-.titulo-principal span {
-    color: var(--verde);
+.titulo-principal-contador span {
+    color: var(--verde-amarelo);
 }
 
 
@@ -271,7 +281,7 @@ body {
 
 .botao.ativo {
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
+    border-bottom: 4px solid var(--verde-amarelo);
 }
 
 .abas-textos {
@@ -295,7 +305,7 @@ body {
 
 .aba-conteudo-titulo-secundario {
     text-align: center;
-    color: var(--verde);
+    color: var(--verde-amarelo);
     text-transform: uppercase;
 }
 
@@ -318,7 +328,7 @@ body {
 }
 
 .contador-digito-texto {
-    color: var(--verde);
+    color: var(--verde-amarelo);
     font-size: 20px;
     margin: 0;
 
